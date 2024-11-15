@@ -1,8 +1,4 @@
-﻿using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
-using System.Text;
-using CodeStatistics.Models;
+﻿using CodeStatistics.Models;
 using CodeStatistics.Models.Events;
 using CodeStatistics.Utils;
 using Microsoft.Win32;
@@ -10,6 +6,10 @@ using Prism.Commands;
 using Prism.Events;
 using Prism.Regions;
 using Prism.Services.Dialogs;
+using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Text;
 
 namespace CodeStatistics.ViewModels;
 
@@ -116,7 +116,8 @@ public class SettingViewModel : BaseViewModel, INavigationAware
 
     public bool IsNavigationTarget(NavigationContext navigationContext) => true;
 
-    public void OnNavigatedFrom(NavigationContext navigationContext) { }
+    public void OnNavigatedFrom(NavigationContext navigationContext)
+    { }
 
     public void OnNavigatedTo(NavigationContext navigationContext)
     {

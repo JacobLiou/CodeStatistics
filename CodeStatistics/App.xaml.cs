@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.Windows;
-using CodeStatistics.Models;
+﻿using CodeStatistics.Models;
 using CodeStatistics.ViewModels;
 using CodeStatistics.Views;
 using Prism.DryIoc;
 using Prism.Ioc;
+using System;
+using System.Collections.ObjectModel;
+using System.Windows;
 
 namespace CodeStatistics;
 

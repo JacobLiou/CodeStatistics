@@ -1,13 +1,13 @@
 ﻿<UserControl x:Class="CodeStatistics.Views.FileTypeView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
              mc:Ignorable="d"
              d:Background="White"
-             xmlns:prism="http://prismlibrary.com/"
-             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
-             xmlns:hc="https://handyorg.github.io/handycontrol"
              prism:ViewModelLocator.AutoWireViewModel="True">
     <StackPanel Margin="10">
         <TextBlock Text="{DynamicResource AddFileType}"

@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using CodeStatistics.Models;
+﻿using CodeStatistics.Models;
 using CodeStatistics.Models.Events;
 using Prism.Events;
 

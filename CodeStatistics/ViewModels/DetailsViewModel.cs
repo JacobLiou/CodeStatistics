@@ -1,7 +1,7 @@
-﻿using System.Collections.ObjectModel;
-using CodeStatistics.Models;
+﻿using CodeStatistics.Models;
 using CodeStatistics.Models.Events;
 using Prism.Events;
+using System.Collections.ObjectModel;
 
 namespace CodeStatistics.ViewModels;
 

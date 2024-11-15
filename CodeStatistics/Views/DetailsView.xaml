@@ -1,13 +1,13 @@
 ﻿<UserControl x:Class="CodeStatistics.Views.DetailsView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:prism="http://prismlibrary.com/"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              prism:ViewModelLocator.AutoWireViewModel="True">
     <!--<ListView ItemsSource="{Binding FileStatisticDatas}" x:Name="listView">
         <ListView.Background>
             <VisualBrush>
                 <VisualBrush.Visual>
-                    <TextBlock Text="{DynamicResource NoData}" 
+                    <TextBlock Text="{DynamicResource NoData}"
                                Visibility="{Binding ElementName=listView, Path=Items.Count, Converter={StaticResource Int2VisibilityConverter}}" />
                 </VisualBrush.Visual>
                 <VisualBrush.RelativeTransform>

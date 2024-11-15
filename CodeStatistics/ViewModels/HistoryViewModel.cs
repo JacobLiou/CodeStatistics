@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using CodeStatistics.Models;
+﻿using CodeStatistics.Models;
 using CodeStatistics.Models.Enums;
 using CodeStatistics.Models.Events;
 using CodeStatistics.Utils;
 using Prism.Events;
+using System.Collections.ObjectModel;
 
 namespace CodeStatistics.ViewModels;
 
